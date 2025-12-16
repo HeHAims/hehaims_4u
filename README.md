@@ -1,4 +1,5 @@
-# HeHAims 4U – Public Experiments
+# HeHAims 4U - Public Experiments
+🧪 Research Demo · Not Production
 
 This repository contains small, reproducible experiments testing how grammatical structure affects belief certainty, emotion, and confidence.
 
@@ -6,10 +7,11 @@ The core CMIS / HeHAims engine and formulas live in a private repository. This p
 
 ## Repository Layout
 
-- `docs/claim.md` — statement of the falsifiable claim and predictions.
-- `experiments/modal_certainty/` — first experiment: does modal grammar alone change perceived certainty?
-  - `modal_certainty_test.py` — simple console script to collect human ratings.
-  - `results.md` — space to log observations.
+- `docs/claim.md` - statement of the falsifiable claim and predictions.
+- `experiments/modal_certainty/` - first experiment: does modal grammar alone change perceived certainty?
+  - `modal_certainty_test.py` - simple console script to collect human ratings.
+  - `results.md` - space to log observations.
+- `docs/cmis-aiahk-demo.ipynb` and `docs/cmis_aiahk_demo.md` - public CMIS-AIHK demo notebook plus run instructions.
 
 ## Running the modal certainty test
 
@@ -17,4 +19,4 @@ The core CMIS / HeHAims engine and formulas live in a private repository. This p
 python experiments/modal_certainty/modal_certainty_test.py
 ```
 
-You will be prompted to rate how certain each sentence sounds on a 1–10 scale.
+You will be prompted to rate how certain each sentence sounds on a 1-10 scale.
